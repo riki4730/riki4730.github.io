@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- ============================================ -->
+    <!-- META TAGS Y SEO                              -->
+    <!-- ============================================ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delicias Artesanales - Los mejores postres y pastas caseras. Tiramisú, cheesecake, ravioles y más. Hecho con amor y los mejores ingredientes.">
+    <meta name="keywords" content="postres artesanales, pastas caseras, tiramisú, cheesecake, ravioles, comida italiana, repostería">
+    <meta name="author" content="Delicias Artesanales">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Delicias Artesanales | Postres y Pastas">
+    <meta property="og:description" content="Descubre nuestros deliciosos postres y pastas hechos con amor. ¡Haz tu pedido por WhatsApp!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tusitio.com">
+    <meta property="og:image" content="./images/hero-banner.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Delicias Artesanales | Postres y Pastas">
+    <meta name="twitter:description" content="Descubre nuestros deliciosos postres y pastas hechos con amor.">
+    <meta name="twitter:image" content="./images/hero-banner.jpg">
+    
+    <title>Melina Pasta y Dulce | Postres y Pastas Caseras</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧁</text></svg>">
+    
+    <!-- ============================================ -->
+    <!-- HOJAS DE ESTILO                              -->
+    <!-- ============================================ -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts - Tipografía moderna y legible -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- ============================================ -->
+    <!-- SKIP LINK PARA ACCESIBILIDAD                 -->
+    <!-- Permite a usuarios de teclado saltar al contenido principal -->
+    <!-- ============================================ -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <!-- ============================================ -->
+    <!-- HEADER / NAVEGACIÓN                          -->
+    <!-- ============================================ -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <!-- Logo del negocio -->
+            <div class="logo">
+                <a href="#" aria-label="Delicias Artesanales - Inicio">
+                    <!-- <span class="logo-icon" aria-hidden="true">🧁</span> -->
+                     <img src="images/Separar letra M.png" width="100px" alt="">
+                    <div class="logo-text">
+                        <span class="logo-title">Melina</span>
+                        <span class="logo-subtitle">Pasta & Dulce</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Botón de menú hamburguesa para móvil -->
+            <button 
+                class="menu-toggle" 
+                id="menuToggle"
+                aria-expanded="false"
+                aria-controls="mainNav"
+                aria-label="Abrir menú de navegación"
+            >
+                <span class="hamburger-line" aria-hidden="true"></span>
+                <span class="hamburger-line" aria-hidden="true"></span>
+                <span class="hamburger-line" aria-hidden="true"></span>
+            </button>
+            
+            <!-- Navegación principal -->
+            <nav 
+                class="main-nav" 
+                id="mainNav"
+                role="navigation"
+                aria-label="Navegación principal"
+            >
+                <ul class="nav-list" role="menubar">
+                    <li role="none">
+                        <a href="#inicio" class="nav-link active" role="menuitem" aria-current="page">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="#productos" class="nav-link" role="menuitem">
+                            <i class="fas fa-utensils" aria-hidden="true"></i>
+                            <span>Productos</span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="#nosotros" class="nav-link" role="menuitem">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                            <span>Nosotros</span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="#contacto" class="nav-link" role="menuitem">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- ============================================ -->
+    <!-- CONTENIDO PRINCIPAL                          -->
+    <!-- ============================================ -->
+    <main id="main-content" role="main">
+        
+        <!-- ======================================== -->
+        <!-- SECCIÓN HERO / BANNER                    -->
+        <!-- ======================================== -->
+        <section 
+            id="inicio" 
+            class="hero"
+            aria-labelledby="hero-title"
+        >
+            <div class="hero-background" aria-hidden="true">
+                <img src="./images/hero-banner.jpg" alt="" loading="eager">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        Hecho con amor
+                    </span>
+                    <h1 id="hero-title" class="hero-title">
+                        Delicias que conquistan<br>
+                        <span class="highlight">tu corazón</span>
+                    </h1>
+                    <p class="hero-description">
+                        Postres y pastas artesanales elaborados con los mejores ingredientes. 
+                        Cada bocado es una experiencia de sabor inolvidable.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#productos" class="btn btn-primary">
+                            <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                            Ver productos
+                        </a>
+                        <!-- aqui cambio el numero para el boton consultar -->
+                        <a 
+                            href="https://wa.me/5492216720243?text=Hola%2C%20quiero%20consultar%20sobre%20sus%20productos." 
+                            class="btn btn-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Consultar por WhatsApp"
+                        >
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            Consultar
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Galería de imágenes destacadas -->
+                <div class="hero-gallery" aria-label="Galería de productos destacados">
+                    <figure class="gallery-item gallery-item-1">
+                        <img src="./images/producto-tiramisu.jpg" alt="Tiramisú artesanal con capas de mascarpone" loading="lazy">
+                        <figcaption class="gallery-caption">Tiramisú Clásico</figcaption>
+                    </figure>
+                    <figure class="gallery-item gallery-item-2">
+                        <img src="./images/producto-pasta-alfredo.jpg" alt="Pasta Alfredo cremosa con parmesano" loading="lazy">
+                        <figcaption class="gallery-caption">Pasta Alfredo</figcaption>
+                    </figure>
+                    <figure class="gallery-item gallery-item-3">
+                        <img src="./images/producto-cheesecake.jpg" alt="Cheesecake con frutos rojos" loading="lazy">
+                        <figcaption class="gallery-caption">Cheesecake</figcaption>
+                    </figure>
+                </div>
+            </div>
+            
+            <!-- Indicador de scroll -->
+            <a href="#productos" class="scroll-indicator" aria-label="Desplazarse a la sección de productos">
+                <span class="scroll-text">Descubre más</span>
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </section>
+        
+        <!-- ======================================== -->
+        <!-- SECCIÓN PRODUCTOS                        -->
+        <!-- ======================================== -->
+        <section 
+            id="productos" 
+            class="products-section"
+            aria-labelledby="products-title"
+        >
+            <div class="container">
+                <!-- Encabezado de la sección -->
+                <header class="section-header">
+                    <span class="section-badge">
+                        <i class="fas fa-utensils" aria-hidden="true"></i>
+                        Nuestros Productos
+                    </span>
+                    <h2 id="products-title" class="section-title">
+                        Sabores que <span class="highlight">enamoran</span>
+                    </h2>
+                    <p class="section-description">
+                        Cada producto es elaborado artesanalmente con ingredientes frescos y de la mejor calidad. 
+                        ¡Haz clic en "Consultar" para pedir por WhatsApp!
+                    </p>
+                </header>
+                
+                <!-- Filtros de categorías -->
+                <div class="filters" role="group" aria-label="Filtrar productos por categoría">
+                    <button class="filter-btn active" data-filter="todos" aria-pressed="true">
+                        <i class="fas fa-th-large" aria-hidden="true"></i>
+                        Todos
+                    </button>
+                    <button class="filter-btn" data-filter="postres" aria-pressed="false">
+                        <i class="fas fa-birthday-cake" aria-hidden="true"></i>
+                        Postres
+                    </button>
+                    <button class="filter-btn" data-filter="pastas" aria-pressed="false">
+                        <i class="fas fa-bacon" aria-hidden="true"></i>
+                        Pastas
+                    </button>
+                </div>
+                
+                <!-- Grid de productos (se renderiza dinámicamente con JS) -->
+                <div 
+                    class="products-grid" 
+                    id="productsGrid"
+                    role="region"
+                    aria-label="Lista de productos disponibles"
+                    aria-live="polite"
+                >
+                    <!-- Los productos se insertan aquí mediante JavaScript -->
+                    <div class="loading-spinner" aria-label="Cargando productos">
+                        <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        <span>Cargando productos...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ======================================== -->
+        <!-- SECCIÓN NOSOTROS                         -->
+        <!-- ======================================== -->
+        <section 
+            id="nosotros" 
+            class="about-section"
+            aria-labelledby="about-title"
+        >
+            <div class="container">
+                <div class="about-grid">
+                    <!-- Contenido de texto -->
+                    <div class="about-content">
+                        <span class="section-badge">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                            Nuestra Historia
+                        </span>
+                        <h2 id="about-title" class="section-title">
+                            Pasión por la <span class="highlight">cocina artesanal</span>
+                        </h2>
+                        <p class="about-text">
+                            Creemos que la comida hecha con amor 
+                            tiene un sabor especial. Por eso, cada uno de nuestros productos es elaborado 
+                            de forma artesanal, utilizando recetas tradicionales y los mejores ingredientes.
+                        </p>
+                        <p class="about-text">
+                            Desde nuestro tiramisú clásico hasta las pastas frescas, todo está hecho 
+                            en casa para que disfrutes de una experiencia gastronómica única.
+                        </p>
+                        
+                        <!-- Características destacadas -->
+                        <ul class="features-list" role="list">
+                            <li class="feature-item" role="listitem">
+                                <span class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-leaf"></i>
+                                </span>
+                                <div class="feature-text">
+                                    <strong>Ingredientes frescos</strong>
+                                    <span>Seleccionamos lo mejor de cada temporada</span>
+                                </div>
+                            </li>
+                            <li class="feature-item" role="listitem">
+                                <span class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-hand-holding-heart"></i>
+                                </span>
+                                <div class="feature-text">
+                                    <strong>Hecho con amor</strong>
+                                    <span>Cada receta tiene un toque especial</span>
+                                </div>
+                            </li>
+                            <li class="feature-item" role="listitem">
+                                <span class="feature-icon" aria-hidden="true">
+                                    <i class="fas fa-calendar-check"></i>
+                                </span>
+                                <div class="feature-text">
+                                    <strong>Pedidos con anticipación</strong>
+                                    <span>Reserva tu pedido con 48hs de anticipación</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Imagen decorativa -->
+                    <div class="about-image" aria-hidden="true">
+                        <div class="image-frame">
+                            <img src="./images/producto-torta-chocolate.jpg" alt="Torta de chocolate artesanal" loading="lazy">
+                            <div class="image-decoration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ======================================== -->
+        <!-- SECCIÓN CONTACTO                         -->
+        <!-- ======================================== -->
+        <section 
+            id="contacto" 
+            class="contact-section"
+            aria-labelledby="contact-title"
+        >
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-badge">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        Contacto
+                    </span>
+                    <h2 id="contact-title" class="section-title">
+                        ¿Listo para <span class="highlight">hacer tu pedido</span>?
+                    </h2>
+                    <p class="section-description">
+                        Escríbenos por WhatsApp y te responderemos a la brevedad.
+                    </p>
+                </header>
+                
+                <!-- Tarjetas de contacto -->
+                <div class="contact-cards" role="list">
+                    <!-- WhatsApp -->
+                    <article class="contact-card contact-card--featured" role="listitem" >
+                        <div class="contact-card-icon" aria-hidden="true">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3 class="contact-card-title">WhatsApp</h3>
+                        <p class="contact-card-text">El método más rápido para hacer tu pedido</p>
+                        <!-- cambiar numero -->
+                        <a 
+                            href="https://wa.me/5492216720243?text=Hola%2C%20quiero%20consultar%20sobre%20sus%20productos." 
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Contactar por WhatsApp"
+                        >
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            Enviar mensaje
+                        </a>
+                    </article>
+                    
+                    <!-- Horario -->
+                    <article class="contact-card" role="listitem">
+                        <div class="contact-card-icon" aria-hidden="true">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="contact-card-title">Horario de Atención</h3>
+                        <p class="contact-card-text">
+                            <time datetime="09:00">Lunes a Viernes: 9:00 - 20:00</time><br>
+                            <time datetime="10:00">Sábados: 10:00 - 18:00</time>
+                        </p>
+                    </article>
+                    
+                    <!-- Entrega -->
+                    <!-- <article class="contact-card" role="listitem">
+                        <div class="contact-card-icon" aria-hidden="true">
+                            <i class="fas fa-motorcycle"></i>
+                        </div>
+                        <h3 class="contact-card-title">Envíos a Domicilio</h3>
+                        <p class="contact-card-text">Consulta zonas de entrega disponibles</p>
+                    </article> -->
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo y descripción -->
+                <div class="footer-brand">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" width="80px" alt="">
+                        <div class="logo-textfooter">
+                            <span class="logo-title">Melina</span>
+                            <span class="logo-subtitle">Pasta y Dulce</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Postres y pastas artesanales elaborados con amor y los mejores ingredientes.
+                    </p>
+                </div>
+                
+                <!-- Enlaces rápidos -->
+                <nav class="footer-nav" aria-label="Navegación del pie de página">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Redes sociales -->
+                <div class="footer-social">
+                    <h3 class="footer-title">Síguenos</h3>
+                    <div class="social-links" role="list">
+                        <a 
+                            href="#" 
+                            class="social-link" 
+                            aria-label="Facebook"
+                            role="listitem"
+                        >
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a 
+                            href="https://www.instagram.com/melinapastaydulce?igsh=OWxvMHZ2ZWFidGEy" 
+                            class="social-link" 
+                            aria-label="Instagram"
+                            role="listitem"
+                        >
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a 
+                            href="#" 
+                            class="social-link" 
+                            aria-label="Twitter"
+                            role="listitem"
+                        >
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; <span id="currentYear">2024</span> Melina Pasta y Dulce. 
+                    Todos los derechos reservados.
+                </p>
+                <p class="credits">
+                    Hecho con <i class="fas fa-heart" aria-hidden="true"></i> y mucho azúcar
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ============================================ -->
+    <!-- BOTÓN FLOTANTE DE WHATSAPP                   -->
+    <!-- Visible en todas las páginas                 -->
+    <!-- ============================================ -->
+     <!-- cambio aqui el numero -->
+    <a 
+        href="https://wa.me/5492216720243?text=Hola%2C%20quiero%20consultar%20sobre%20sus%20productos."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Consultar por WhatsApp"
+        title="Consultar por WhatsApp"
+    >
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-tooltip">¿Consultas? Escríbenos</span>
+    </a>
+    
+    <!-- ============================================ -->
+    <!-- BOTÓN VOLVER ARRIBA                          -->
+    <!-- ============================================ -->
+    <button 
+        class="back-to-top" 
+        id="backToTop"
+        aria-label="Volver al inicio de la página"
+        title="Volver arriba"
+    >
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    
+    <!-- ============================================ -->
+    <!-- SCRIPTS                                      -->
+    <!-- ============================================ -->
+    <script src="app.js"></script>
+</body>
+</html>
